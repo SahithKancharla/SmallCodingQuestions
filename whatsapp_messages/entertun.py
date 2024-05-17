@@ -19,7 +19,7 @@ message = """
 1                     000000                   1
 1                     000000                   1
 1                     000000                   1
-1                  0000000000               1
+1                 0000000000                1
 1                                                  1
 1                                                  1
 1           00000              00000        1
@@ -53,7 +53,7 @@ message = """
 """
 pyautogui.press("enter")
 for i in message.split("\n"):
-    # print(i)
+
     pyautogui.typewrite(i)
     k.press_and_release("enter") 
     time.sleep(0.4)
