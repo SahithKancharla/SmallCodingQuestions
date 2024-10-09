@@ -1,0 +1,69 @@
+Copper:
+
+Demand: (copper consumtion by industry by time)
+- Wires, semi-conductors
+- Plumbing
+- Solar panels
+- electric motors
+- Housing
+
+Demand by countries:  (2000)
+ - China
+ - US
+ - Europe
+
+Supply: (supply of copper from different countries, recycleing)
+- Where most of the copper is mined from
+- how much is coming from recycling
+- what countries/ continents have the most influenece on copper
+  - chile, peru
+- Inventories (chine and us)
+
+Secondary factors: (forecasted and reported on bloomberg)
+- unemployment
+- inflation
+- feds funds rata
+- strength of the US dollar
+  - dollar - yuan
+- commitment of traders
+- ETF holdings
+
+Graphs:
+- supply and demand graphs
+- percentage use in each industry by year
+
+Models:
+- one for US (reports)
+- one of China (reports)
+- One for the supply and demand
+
+
+corraltion matric between reports and coppers price
+- simple linear regression matrix
+
+not so deep neural network for china:
+
+
+X:
+- yuan exchange rate
+- housing starts by quarter
+- money supply
+- coppers price in 2-week look
+
+Y:
+- Percent overweight vs underweight sentiment
+
+Have equation for long term line, and determine deviation from the line based on trainning sets where each set is:
+
+[copper underlying trend, report value of actual-expected, the actual price[
+
+Where output is deviation from the copper underlying trend...
+
+Expected vs predicted report values at a lagged interval and use to predict upcoming report value.
+
+
+Quantity supplied & Price = point on demand curve
+
+
+
+
