@@ -1,0 +1,7 @@
+
+1: To check if sec provides these files in this exact format fo if it folows any predetermined strucutre
+- This would make is so that it is possible to reduce the scope of where we need to search for it
+
+2: can we use the DOM to parse the iformation in a way that we could get to the solution?
+- is there a way to take advantage of dividing all the file into tables, paragrapts, titles etc..
+
